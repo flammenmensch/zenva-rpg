@@ -1,0 +1,27 @@
+{
+  "name": "rpg",
+  "version": "1.0.0",
+  "description": "RPG Game",
+  "main": "src/index.ts",
+  "author": "Flammenmensch <maleventum@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "@types/node": "^8.5.1",
+    "clean-webpack-plugin": "^0.1.17",
+    "copy-webpack-plugin": "^4.3.0",
+    "expose-loader": "^0.7.4",
+    "ts-loader": "^3.2.0",
+    "tslint": "^5.8.0",
+    "tslint-loader": "^3.5.3",
+    "typescript": "^2.6.2",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.9.7"
+  },
+  "dependencies": {
+    "phaser-ce": "^2.9.3"
+  },
+  "scripts": {
+    "start": "webpack-dev-server --config webpack.config.js --progress --colors --watch --open"
+  }
+}
